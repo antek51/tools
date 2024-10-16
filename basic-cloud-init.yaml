@@ -6,6 +6,7 @@ users:
     lock_passwd: false
     passwd: $6$rounds=4096$IeLCm2l9kverU1p/$F1i/x/PMqF6qJjBbpbIEH4OAYAdnIHNurMParEtrm7vuWC.gFgLnu84E.sVpZLgAL0olP.AodAS3KFS/cnyGH/
     groups: sudo
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
 chpasswd:
   list: |
     nutanix:nutanix/4u
